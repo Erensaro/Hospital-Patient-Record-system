@@ -1,0 +1,10 @@
+CREATE TABLE patients (
+    patient_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    age INT,
+    gender VARCHAR(10),
+    contact VARCHAR(15),
+    disease VARCHAR(100),
+    doctor VARCHAR(100),
+    medical_history TEXT
+);
